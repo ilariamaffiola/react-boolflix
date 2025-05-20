@@ -59,7 +59,7 @@ const handleSubmit = (e) => {
               <div className="col-4" key={film.id}>
                 <div className="card">
                   <div className="card-img">
-                    <img src="" alt="" />
+                    <img src={`https://image.tmdb.org/t/p/w200/${film.poster_path}`} alt="film-poster" />
                   </div>
                   <div className="card-body">
                     <h3>{film.title}</h3>
@@ -77,7 +77,7 @@ const handleSubmit = (e) => {
               <div className="col-4" key={serie.id}>
                 <div className="card">
                   <div className="card-img">
-                    <img src="" alt="" />
+                    <img src={`https://image.tmdb.org/t/p/w200/${serie.poster_path}`} alt="" />
                   </div>
                   <div className="card-body">
                     <h3>{serie.name}</h3>
