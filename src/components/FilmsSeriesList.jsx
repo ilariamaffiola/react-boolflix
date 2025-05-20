@@ -27,7 +27,7 @@ const FilmsSeriesList = ({ title }) => {
       });
   };
   const starRating = (vote) => {
-    const rating = Math.round(Math.floor(vote) / 2);
+    const rating = Math.round(vote / 2);
     return (
       <span>
         <i
