@@ -16,11 +16,11 @@ function App() {
 
   return (
     <>
-      <div className="container-fluid">
-        <header>
+      <header className="bg-dark">
+        <div className="container-fluid">
           <div className="">
-            <div className="row justify-content-between">
-              <div className="col-3">logo</div>
+            <div className="row justify-content-between align-items-center">
+              <div className="col-3 text-danger logo">BoolFlix</div>
               <div className="col-4">
                 <form className="imput-group d-flex" onSubmit={handleSubmit}>
                   <input
@@ -37,13 +37,13 @@ function App() {
               </div>
             </div>
           </div>
-        </header>
-        <main>
-          <div className="row g-3">
-            <FilmsSeriesList title={searchedTitle} />
-          </div>
-        </main>
-      </div>
+        </div>
+      </header>
+      <main>
+        <div className="row g-3">
+          <FilmsSeriesList title={searchedTitle} />
+        </div>
+      </main>
     </>
   );
 }
