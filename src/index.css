@@ -1,6 +1,4 @@
-.card{
-  height: 100%;
-}
+
 .logo{
   font-size: 40px;
   padding: 5px;
@@ -12,7 +10,7 @@
 .film-not-found{
   
 }
-.card-body{
+.retro{
   display: none;
 }
 .card-img img {
